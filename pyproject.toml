@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "text-inspector"
+version = "1.0.0"
+description = "Analyze text files and report lines, characters, terms, and frequent words with JSON export."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "GitHub Content Pack Contributor" }]
+dependencies = []
+keywords = ["python", "cli", "text-analysis", "word-count", "productivity"]
+
+[project.scripts]
+text-inspect = "text_inspector.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

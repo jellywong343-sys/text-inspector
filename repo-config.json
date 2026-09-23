@@ -1,0 +1,11 @@
+{
+  "name": "text-inspector",
+  "description": "Analyze text files and report lines, characters, terms, and frequent words with JSON export.",
+  "topics": [
+    "python",
+    "cli",
+    "text-analysis",
+    "word-count",
+    "productivity"
+  ]
+}
